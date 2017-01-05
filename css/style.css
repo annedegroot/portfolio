@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Adam';
+    src: url('Adam.eot');
+    src: url('https://dl.dropboxusercontent.com/u/17085229/Anne%20de%20Groot/fonts/Portfolio/Adam.eot') format('embedded-opentype'),
+        url('https://dl.dropboxusercontent.com/u/17085229/Anne%20de%20Groot/fonts/Portfolio/Adam.woff') format('woff'),
+        url('https://dl.dropboxusercontent.com/u/17085229/Anne%20de%20Groot/fonts/Portfolio/Adam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 /*
 ========================================================
     BROWSER RESET
