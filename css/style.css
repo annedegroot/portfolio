@@ -382,6 +382,18 @@ body {
 
 #about img {
     width: 100vw;
+
+}
+
+@media screen and (min-width: 78.063em) {
+#about img{
+
+
+max-height: 45em;
+    max-width: 45em;
+
+}
+
 }
 
 .abouttekst {
