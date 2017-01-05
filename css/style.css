@@ -394,13 +394,18 @@ max-height: 40em;
 
 }
 
+    .abouttekst {
+        max-width: 55em;
+
+    }
+
 }
 
 .abouttekst {
     padding: 2em;
     padding-top: 1em;
     margin: auto;
-    max-width: 65em;
+
 }
 
 @media screen and (min-width: 28.125em) {
