@@ -306,10 +306,7 @@ header {
 
 .socialmedia li {
     display: inline-block;
-
 }
-
-
 
 .socialmedia li a {
     font-size: 0.7em;
@@ -340,7 +337,7 @@ a .closebtn:hover {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    line-height: normal;
+    line-height: 2.4em;
     font-size: 0.9em;
 }
 
@@ -381,10 +378,7 @@ body {
 
 #about {
     padding-bottom: 5em;
-
 }
-
-
 
 #about img {
     width: 100vw;
@@ -393,9 +387,7 @@ body {
 .abouttekst {
     padding: 2em;
     padding-top: 1em;
-    line-height: 2.4em;
     margin: auto;
-
 }
 
 @media screen and (min-width: 28.125em) {
@@ -413,10 +405,8 @@ body {
     .abouttekst {
         padding: 2em;
     }
-
     #about {
         padding-bottom: 11em;
-
     }
 }
 
@@ -441,27 +431,19 @@ body {
         padding: 4em;
         padding-top: 8em;
     }
-
-
 }
 
 @media screen and (min-width: 71.063em) {
-#about {
+    #about {
         padding-bottom: 17em;
-
     }
-
 }
 
 @media screen and (min-width: 78.063em) {
-#about {
+    #about {
         padding-bottom: 21em;
-
     }
-
 }
-
-
 
 .interesse {
     line-height: 2.4em;
@@ -497,13 +479,11 @@ footer {
     margin-top: 3em;
 }
 
-#school{
+#school {
     position: relative;
     border-top: solid 1px #818181;
 
-
 }
-
 
 #school h1 {
     font-family: "Adam";
@@ -515,16 +495,13 @@ footer {
     margin-top: -0.5em;
     background-color: white;
     width: 3em;
-
+    height: 1em;
 }
 
-#werk{
+#werk {
     position: relative;
     border-top: solid 1px #818181;
-
-
 }
-
 
 #werk h1 {
     font-family: "Adam";
@@ -536,7 +513,8 @@ footer {
     margin-top: -0.5em;
     background-color: white;
     width: 3em;
-
 }
+
+.onderdelen {}
 
 
