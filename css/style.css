@@ -525,11 +525,20 @@ footer {
     background-color: white;
     width: 3em;
     height: 1em;
+    padding-bottom: 1em;
+}
+
+@media screen and (min-width: 78.063em) {
+
+    #school {
+        margin-top: -10em;
+    }
 }
 
 #werk {
     position: relative;
     border-top: solid 1px #818181;
+    margin-top: 6em;
 }
 
 #werk h1 {
@@ -544,6 +553,45 @@ footer {
     width: 3em;
 }
 
-.onderdelen {}
+#portfolio1 div:hover {
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3),
+            6px 6px 10px rgba(0,0,0,0.3),
+            -1px -1px 20px rgba(0,0,0,0.1);
 
+}
+
+
+#portfolio1 div img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.7;
+}
+
+#portfolio1 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* Media query */
+/* Tablet: 28.125em = 450px */
+@media screen and (min-width: 28.125em) {
+    #portfolio1 div {
+        width: 50%;
+    }
+}
+
+/* Desktop: 48.063em = 760px */
+@media screen and (min-width: 48.063em) {
+    #portfolio1 div {
+        width: 33.333%;
+    }
+}
+
+#portfolio div a img {
+    display: block;
+    margin: 0 auto;
+}
 
