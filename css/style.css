@@ -612,7 +612,7 @@ footer {
     font-weight: 400;
     font-size: 1.3em;
     letter-spacing: 0.3em;
-    text-align-last: center;
+    text-align: center;
 
 }
 
@@ -621,7 +621,7 @@ footer {
     font-weight: 200;
     font-size: 0.8em;
     letter-spacing: 0.2em;
-    text-align-last: center;
+    text-align: center;
 
 }
 
