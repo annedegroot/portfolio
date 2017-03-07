@@ -261,7 +261,7 @@ header {
     text-decoration: none;
     color: #818181;
     display: block;
-    transition: 0.3s
+    transition: 0.3s;
 }
 
 
@@ -593,5 +593,53 @@ footer {
 #portfolio div a img {
     display: block;
     margin: 0 auto;
+}
+
+
+/*
+========================================================
+    Detailpagina
+========================================================
+*/
+
+.detailpage {
+    margin-top: 6em;
+
+}
+
+.detailpage h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    letter-spacing: 0.3em;
+    text-align-last: center;
+
+}
+
+.detailpage h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    text-align-last: center;
+
+}
+
+.hoofdtekst {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15vw;
+    margin-top: 3em;
+}
+
+.hoofdtekst img {
+    margin-top: 1em;
+    width: 100%;
+
+}
+
+@media screen and (min-width: 71.063em){
+    .hoofdtekst p {
+        margin-left: 10vw;
+    }
 }
 
