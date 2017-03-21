@@ -626,6 +626,7 @@ footer {
 .hoofdtekst {
     font-family: 'Roboto', sans-serif;
     margin-left: 15vw;
+    margin-right: 5em;
     margin-top: 3em;
 }
 
@@ -635,9 +636,28 @@ footer {
 
 }
 
+.hoofdtekst video {
+
+    margin-top: 1em;
+    width: 90%;
+    height: 30em;
+}
+
 @media screen and (min-width: 71.063em){
     .hoofdtekst p {
-        margin-left: 10vw;
+        margin-left: 5vw;
+    }
+
+    .hoofdtekst img{
+        width: 80%;
+        margin-left: 7em;
+
+    }
+
+    .hoofdtekst video {
+
+        width: 80%;
+        margin-left: 7em;
     }
 }
 
