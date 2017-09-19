@@ -515,41 +515,17 @@ footer {
     border-top: solid 1px #818181;
     margin-top: 4em;
 
+
 }
 
 #school h1 {
-    font-family: "Adam";
-    color: #818181;
-    font-size: 3em;
-    letter-spacing: 0.02em;
-    margin-left: 0.6em;
-    padding-left: 0.1em;
-    margin-top: -0.5em;
-    background-color: white;
-    width: 3em;
-    height: 1em;
-    padding-bottom: 1em;
+
+    padding-bottom: 4em;
 }
 
 
 
-#werk {
-    position: relative;
-    border-top: solid 1px #818181;
-    margin-top: 6em;
-}
 
-#werk h1 {
-    font-family: "Adam";
-    color: #818181;
-    font-size: 3em;
-    letter-spacing: 0.02em;
-    margin-left: 0.6em;
-    padding-left: 0.1em;
-    margin-top: -0.5em;
-    background-color: white;
-    width: 3em;
-}
 
 #portfolio1 div:hover {
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3),
