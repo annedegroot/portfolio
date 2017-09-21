@@ -591,6 +591,7 @@ footer {
 .hoofdtekst img {
     margin-top: 1em;
     width: 100%;
+    margin-bottom: 2em;
 }
 
 .hoofdtekst video {
