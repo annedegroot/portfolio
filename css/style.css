@@ -1,9 +1,7 @@
 @font-face {
     font-family: 'Adam';
     src: url('Adam.eot');
-    src: url('https://dl.dropboxusercontent.com/u/17085229/Anne%20de%20Groot/fonts/Portfolio/Adam.eot') format('embedded-opentype'),
-        url('https://dl.dropboxusercontent.com/u/17085229/Anne%20de%20Groot/fonts/Portfolio/Adam.woff') format('woff'),
-        url('https://dl.dropboxusercontent.com/u/17085229/Anne%20de%20Groot/fonts/Portfolio/Adam.ttf') format('truetype');
+    src: url('https://dl.dropboxusercontent.com/u/17085229/Anne%20de%20Groot/fonts/Portfolio/Adam.eot') format('embedded-opentype'), url('https://dl.dropboxusercontent.com/u/17085229/Anne%20de%20Groot/fonts/Portfolio/Adam.woff') format('woff'), url('https://dl.dropboxusercontent.com/u/17085229/Anne%20de%20Groot/fonts/Portfolio/Adam.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -348,7 +346,7 @@ a .closebtn:hover {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    line-height: 2.4em;
+    line-height: 1.8em;
     font-size: 0.9em;
 }
 
@@ -395,30 +393,22 @@ body {
 #about img {
     width: 100vw;
     margin-top: 0.1em;
-
 }
 
 @media screen and (min-width: 78.063em) {
-#about img{
-
-
-max-height: 40em;
-    max-width: 40em;
-
-}
-
+    #about img {
+        max-height: 40em;
+        max-width: 40em;
+    }
     .abouttekst {
         max-width: 55em;
-
     }
-
 }
 
 .abouttekst {
     padding: 2em;
     padding-top: 1em;
     margin: auto;
-
 }
 
 @media screen and (min-width: 28.125em) {
@@ -507,57 +497,50 @@ footer {
     padding: 1em;
     font-weight: 300;
     height: 2em;
-    margin-top: 3em;
+
 }
 
 #school {
     position: relative;
     border-top: solid 1px #818181;
     margin-top: 4em;
-
-
 }
 
 #school h1 {
-
     padding-bottom: 4em;
 }
 
-
-
-
-
 #portfolio1 div:hover {
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3),
-            6px 6px 10px rgba(0,0,0,0.3),
-            -1px -1px 20px rgba(0,0,0,0.1);
-
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), 6px 6px 10px rgba(0, 0, 0, 0.3), -1px -1px 20px rgba(0, 0, 0, 0.1);
 }
-
 
 #portfolio1 div img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
-    opacity: 0.7;
 }
 
 #portfolio1 {
     display: flex;
     flex-wrap: wrap;
-
 }
 
+
 /* Media query */
+
+
 /* Tablet: 28.125em = 450px */
+
 @media screen and (min-width: 28.125em) {
     #portfolio1 div {
         width: 50%;
     }
 }
 
+
 /* Desktop: 48.063em = 760px */
+
 @media screen and (min-width: 48.063em) {
     #portfolio1 div {
         width: 33.333%;
@@ -578,7 +561,6 @@ footer {
 
 .detailpage {
     margin-top: 6em;
-
 }
 
 .detailpage h1 {
@@ -587,7 +569,6 @@ footer {
     font-size: 1.3em;
     letter-spacing: 0.3em;
     text-align: center;
-
 }
 
 .detailpage h2 {
@@ -596,7 +577,6 @@ footer {
     font-size: 0.8em;
     letter-spacing: 0.2em;
     text-align: center;
-
 }
 
 .hoofdtekst {
@@ -606,34 +586,68 @@ footer {
     margin-top: 3em;
 }
 
+
+
 .hoofdtekst img {
     margin-top: 1em;
     width: 100%;
-
 }
 
 .hoofdtekst video {
-
     margin-top: 1em;
     width: 90%;
     height: 30em;
 }
 
-@media screen and (min-width: 71.063em){
+@media screen and (min-width: 71.063em) {
     .hoofdtekst p {
         margin-left: 5vw;
     }
-
-    .hoofdtekst img{
-        width: 80%;
-        margin-left: 7em;
-
+    .hoofdtekst img {
+        width: 60%;
+        margin-left: 17em;
+        margin-top: 3em;
     }
-
     .hoofdtekst video {
-
         width: 80%;
         margin-left: 7em;
     }
 }
 
+.hier {
+    font-size: 1.3em;
+    text-align: center;
+    width: 100%;
+    padding: 3em 0;
+    background-color: rgba(221,228,232,0.3);
+    margin-top: 3em;
+
+}
+
+.hier a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    background-color: rgb(169, 191, 206);
+    padding: 0.5em 2em;
+
+}
+
+
+
+@media screen and (min-width: 48.063em) {
+    .hier {
+    font-size: 1.3em;
+    text-align: left;
+}
+    .hier p{
+    margin-left: 20vw;
+        font-size: 2em;
+        margin-bottom: 0.3em;
+        line-height: 1.2em;
+}
+
+        .hier a{
+    margin-left: 25vw;
+}
+}
